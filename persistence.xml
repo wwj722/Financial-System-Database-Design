@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="FinancialSystemWeb" transaction-type="RESOURCE_LOCAL">
+		<class>src.FinancialSystem.AccountsTable</class>
+		<class>src.FinancialSystem.Application</class>
+		<class>src.FinancialSystem.AuthorityConverter</class>
+		<class>src.FinancialSystem.BorrowCheck</class>
+		<class>src.FinancialSystem.BorrowMoney</class>
+		<class>src.FinancialSystem.Check</class>
+		<class>src.FinancialSystem.DebtRecords</class>
+		<class>src.FinancialSystem.ExpenditureTable</class>
+		<class>src.FinancialSystem.IncomeTable</class>
+		<class>src.FinancialSystem.OtherExpenditure</class>
+		<class>src.FinancialSystem.OtherExpenditureCheck</class>
+		<class>src.FinancialSystem.OtherIncome</class>
+		<class>src.FinancialSystem.OtherIncomeCheck</class>
+		<class>src.FinancialSystem.OtherRecords</class>
+		<class>src.FinancialSystem.Salary</class>
+		<class>src.FinancialSystem.SalaryCheck</class>
+		<class>src.FinancialSystem.SalaryRecords</class>
+		<class>src.FinancialSystem.User</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/financialmanagement"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value="s200921052"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>
