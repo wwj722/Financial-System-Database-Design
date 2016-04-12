@@ -3,22 +3,19 @@
 Project Topic
 
 
-Group Members: Bo Zhou,  Tianshu Peng, Weijian Wang
-
-
-1.  Overview
+1. Overview
 
 The project topic of our group is financial management system.
 
 Financial management system refers to the financial management of all relevant factors combined according to certain rules. It is the overall operation system to achieve financial goals and conducted under all sorts of opportunities and constraints provided by the environment.
 
 
-2.  Purposes and Objectives   
+2. Purposes and Objectives   
 
 The main purpose of financial managements system is to use established enterprise network to publish enterprise financial principles, budgeting, policy basis for charges. To provide business and customers about income and expenditure, allowances paid, taxes withheld and so on. Employees can log in after authenticated, and quickly check the financial information required. Financial officers do not have to hand write a receipt, the receipt by printing to achieve the completion of the writing process to reduce the workload and improve the professional level. Financial officers can provide information at any time and the user can check the website to the financial information they need. Meanwhile finance staff also provide the basis for leadership decision-making, thereby enhancing the level of corporate governance, control production costs, standardize management processes, enhance the ability to respond to market changes.
 
 
-3.  Basic Functions
+3. Basic Functions
 
 •	Enhanced security and efficient reporting
 •	Supports a wide range of SQL databases
@@ -29,7 +26,7 @@ The main purpose of financial managements system is to use established enterpris
 •	The use of e-mail, fax, Internet portal and web services to distribute reports
 
 
-5.  Description
+4. Description
 
 The general ledger system is the core of this system. It would set the account template for documents of other systems required to generate a credential according to the business rules and accounting standard.  
 
